@@ -419,6 +419,13 @@
         </div>
         <div class="flower__glass"></div>
     </div>
-    <div class="name" style="color:#fb0699;">Hasnaa</div>
+    <div class="name" id="name" style="color:#fb0699;"></div>
+
+    <script>
+        window.onload = function() {
+            var userName = prompt("Please enter your name:");
+            document.getElementById("name").textContent = userName;
+        }
+    </script>
 </body>
 </html>
